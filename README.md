@@ -1,1 +1,0 @@
-# Frontend: GASP FROM HTML  
