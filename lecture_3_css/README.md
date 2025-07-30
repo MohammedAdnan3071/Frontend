@@ -32,3 +32,50 @@ Can refer to :
 
 ## Units in CSS
 Units define the size of the properties like **marign,** **padding,** **width,** **height,** **font-size etc**
+
+## Units
+
+### Pixels - px
+absolute unit.
+what it does :Represents a fixed number of screen pixels.
+Use case: Precise control, useful for borders, icons, etc.
+   div{
+    width : 200px;
+   }
+
+### Percentage - %
+Relative unit.
+what it does:Relative to the parent element's dimensions.
+Use case: Flexible layouts that adapt to containter size.
+    div{
+      width : 50%
+    }
+
+### vh and vw - Viewport Units
+Relative type
+What it does : 
+    1vh = 1% of viewport height
+    1vw = 1% of viewport width
+Use case :
+ Fullscreen sections, responsive typography, etc 
+
+
+### em 
+Relative type
+What it does: Relative to the font size of the parent element.
+Use case: Scalable spacing, padding etc that respects user font size settings.
+           div{
+            font-size : 1.5em;
+           }
+
+### rem - Root em
+Relative type
+What it does : Relative to the root element's font size
+use case : Consistent typography across components.
+
+  html{
+    font-size:16px;
+  }
+ p{
+  font-size: 1.5rem ; // 1.5rem = 1.5 * 16 = 24px;
+ }
