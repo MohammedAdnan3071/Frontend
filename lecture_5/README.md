@@ -26,3 +26,7 @@ This sets it apart from Flexbox , which is primarily 1D
  1fr means one fraction of the available space.
 
  auto adapts to the content size.
+
+
+ CSS GRID project after this
+ 
